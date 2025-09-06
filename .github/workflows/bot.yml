@@ -2,7 +2,7 @@ name: Wishlink Bot
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # every 2 hours
+    - cron: "0,20,40 * * * *"
   workflow_dispatch:        # allows manual runs from the Actions tab
 
 jobs:
